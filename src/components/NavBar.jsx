@@ -9,7 +9,7 @@ const NavBar = () => {
                 <div className="col-md-6">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="#"><img src="imagenes/mcdonalds-logo-footer-bg-white.png" alt="McDonalds" width="88" /></a>
+                            <a className="navbar-brand" href="#"><img src="imagenes/logo.png" alt="McDonalds" width="88" /></a>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -22,10 +22,10 @@ const NavBar = () => {
                                         <a className="nav-link" href="#">Locales</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">En Familia</a>
+                                        <a className="nav-link" href="#">Nosotros</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Nosotros</a>
+                                        <a className="nav-link" href="#">Preguntas Frecuentes</a>
                                     </li>
                                 </ul>
                             </div>

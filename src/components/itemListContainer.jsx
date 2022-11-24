@@ -5,7 +5,7 @@ const ItemListContainer = ({titulo, comp1}) => {
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <div className="alert alert-warning text-center" role="alert">
+                    <div className="alert alert-success text-center" role="alert">
                         {titulo}
                         {comp1}
                     </div>
