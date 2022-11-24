@@ -4,7 +4,7 @@ import CardWidget from "./CartWidget";
 const NavBar = () => {
     return <div>
         <div className="container">
-            <h1 className="text-center titulo">Mercado de frutos</h1>
+            <h1 className="text-center titulo">Mercado de Frutas</h1>
             <div className="row">
 
                 <div className="col-md-6">

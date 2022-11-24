@@ -1,6 +1,6 @@
 import React from "react";
 
-const ItemListContainer = ({titulo, comp1}) => {
+const itemListContainer = ({titulo, comp1}) => {
     return (
         <div className="container">
             <div className="row">
@@ -15,4 +15,4 @@ const ItemListContainer = ({titulo, comp1}) => {
     )
 };
 
-export default ItemListContainer;
+export default itemListContainer;
