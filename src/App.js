@@ -3,17 +3,17 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Contacto from "./components/Contacto";
 import Error404 from "./components/Error404";
-import itemListContainer from "./components/itemListContainer";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ItemDetailContainer from "./components/ItemDetailContainer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ItemListaContainer from "./components/ItemListaContainer";
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path={"/"} element={<itemListContainer />} />
-        <Route path={"/category/:categoria"} element={<itemListContainer />} />
+        <Route path={"/"} element={<ItemListaContainer />} />
+        <Route path="/category/:categoria" element={<ItemListaContainer />}/>
         <Route path={"/item/:id"} element={<ItemDetailContainer />} />
         <Route path={"*"} element={<Error404 />} />
       </Routes>

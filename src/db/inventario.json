@@ -1,93 +1,92 @@
 [
-    {
-		"id": 0, 
-		"fruta": "banana", 
-		"precio": 150, 
-		"stock": 100, 
-		"imagen": "banana.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"acida"
+	{
+		"id": 0,
+		"fruta": "banana",
+		"precio": 150,
+		"stock": 100,
+		"imagen": "/imagenes/banana.jpg",
+		"descripcion": "La banana, ​ conocido también como banano, plátano, ​ guineo maduro, guineo, cambur o gualele, es un fruto comestible, de varios tipos de grandes plantas herbáceas del género Musa. A estas plantas de gran porte que tienen aspecto de arbolillo se las denomina plataneras, bananeros, bananeras, plátanos o bananos.",
+		"categoria": "acida"
 	},
-    {
-		"id": 1, 
-		"fruta": "durazno", 
-		"precio": 300, 
-		"stock": 100, 
-		"imagen": "durazno.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"semiacida"
-
+	{
+		"id": 1,
+		"fruta": "durazno",
+		"precio": 300,
+		"stock": 100,
+		"imagen": "/imagenes/durazno.jpg",
+		"descripcion": "Prunus persica, originalmente Amygdalus persica L. y comúnmente conocido como melocotonero​, es una especie de árbol del género Prunus de la familia Rosaceae. También se suele denominar duraznero en países hispanoamericanos y albérchigo en castellano antiguo.",
+		"categoria": "semiacida"
 	},
-    {
-		"id": 2, 
-		"fruta": "frutilla", 
-		"precio": 600, 
-		"stock": 100, 
-		"imagen": "frutilla.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"neutra" 
+	{
+		"id": 2,
+		"fruta": "frutilla",
+		"precio": 600,
+		"stock": 100,
+		"imagen": "/imagenes/frutilla.jpg",
+		"descripcion": "La fresa o frutilla es un género de plantas rastreras estoloníferas de la familia Rosaceae. Agrupa unos 400 taxones descritos, de los cuales solo unos 20 están aceptados.​ Son cultivadas por su fruto comestible llamado de la misma manera: fresa o, en algunos países hispanoamericanos, frutilla. ",
+		"categoria": "neutra"
 	},
-    {
-		"id": 3, 
-		"fruta": "mandarina", 
-		"precio": 280, 
-		"stock": 100, 
-		"imagen": "mandarina.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"neutra"
+	{
+		"id": 3,
+		"fruta": "mandarina",
+		"precio": 280,
+		"stock": 100,
+		"imagen": "/imagenes/mandarina.jpg",
+		"descripcion": "La mandarina es el fruto de las diferentes especies de cítricos llamados comúnmente mandarino, entre ellas Citrus reticulata, Citrus unshiu, Citrus × reshni, así como sus híbridos, incluyendo Citrus × tangerina, cuya taxonomía está discutida.​ ",
+		"categoria": "neutra"
 	},
-    {
-		"id": 4, 
-		"fruta": "manzana", 
-		"precio": 320, 
-		"stock": 100, 
-		"imagen": "manzana.jpg",        
-        "descripcion":"Descripcion del producto......",
-        "categoria":"dulce"
+	{
+		"id": 4,
+		"fruta": "manzana",
+		"precio": 320,
+		"stock": 100,
+		"imagen": "/imagenes/manzana.jpg",
+		"descripcion": "La manzana o poma​ es el fruto comestible de la especie Malus domestica, el manzano común. Es una fruta pomácea de forma redonda y sabor muy dulce, dependiendo de la variedad. Los manzanos se cultivan en todo el mundo y son las especies más utilizadas del género Malus.",
+		"categoria": "dulce"
 	},
-    {
-		"id": 5, 
-		"fruta": "naranja", 
-		"precio": 200, 
-		"stock": 100, 
-		"imagen": "naranja.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"dulce"
+	{
+		"id": 5,
+		"fruta": "naranja",
+		"precio": 200,
+		"stock": 100,
+		"imagen": "/imagenes/naranja.jpg",
+		"descripcion": "La naranja es una fruta cítrica obtenida del naranjo dulce, del naranjo amargo y de naranjos de otras variedades o híbridos, de origen asiático.",
+		"categoria": "dulce"
 	},
-    {
-		"id": 6, 
-		"fruta": "pera", 
-		"precio": 300, 
-		"stock": 100, 
-		"imagen": "pera.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"dulce" 
+	{
+		"id": 6,
+		"fruta": "pera",
+		"precio": 300,
+		"stock": 100,
+		"imagen": "/imagenes/pera.jpg",
+		"descripcion": "Se denomina pera al fruto de distintas especies del género Pyrus, integrado por árboles caducifolios conocidos comúnmente como perales.​ Sin embargo, cuando se trata del fruto comestible, se hace referencia mayormente al producido por el llamado peral común. ",
+		"categoria": "dulce"
 	},
-    {
-		"id": 7, 
-		"fruta": "pomelo", 
-		"precio": 500, 
-		"stock": 100, 
-		"imagen": "pomelo.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"dulce" 
+	{
+		"id": 7,
+		"fruta": "pomelo",
+		"precio": 500,
+		"stock": 100,
+		"imagen": "/imagenes/pomelo.jpg",
+		"descripcion": "El pomelo o toronja es una planta del género Citrus, de la familia de las rutáceas, cultivado por su fruta, el pomelo o toronja. Es un híbrido, probablemente producido de manera espontánea entre la pampelmusa y la naranja dulce en las plantaciones del mar Caribe alrededor del siglo XVII.",
+		"categoria": "dulce"
 	},
-    {
-		"id": 8, 
-		"fruta": "melon", 
-		"precio": 200, 
-		"stock": 100, 
-		"imagen": "melon.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"dulce" 
+	{
+		"id": 8,
+		"fruta": "melon",
+		"precio": 200,
+		"stock": 100,
+		"imagen": "/imagenes/melon.jpg",
+		"descripcion": "Cucumis melo, llamado comúnmente melón, es una especie de la familia de las cucurbitáceas. Domesticada hace más de cuatro mil años en la región mediterránea oriental y Asia occidental, el origen exacto de la especie silvestre es aún desconocido. ",
+		"categoria": "dulce"
 	},
-    {
-		"id": 9, 
-		"fruta": "sandia", 
-		"precio": 100, 
-		"stock": 100, 
-		"imagen": "sandia.jpg",
-        "descripcion":"Descripcion del producto......",
-        "categoria":"dulce"
+	{
+		"id": 9,
+		"fruta": "sandia",
+		"precio": 100,
+		"stock": 100,
+		"imagen": "/imagenes/sandia.jpg",
+		"descripcion": "Citrullus lanatus, comúnmente llamada melón de agua, sandía, acendría, sindria, patilla, es una especie de la familia Cucurbitaceae. Es originaria de África con una gran presencia y difusión en todo el mundo.",
+		"categoria": "dulce"
 	}
 ]
