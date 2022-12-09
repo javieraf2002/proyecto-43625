@@ -22,7 +22,7 @@ const ItemListaContainer = () => {
     }, [categoria]);
 
     return (
-        <div className="container">
+        <div className="container my-5">
             <ItemList items={items} />
         </div>
     )
