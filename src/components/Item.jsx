@@ -11,7 +11,7 @@ const Item = ({ item }) => {
                         <p className="card-text">{item.fruta}</p>
                     </div>
                 </div>
-            </Link>        
+            </Link>
         </div>
     )
 }

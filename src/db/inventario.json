@@ -3,7 +3,7 @@
 		"id": 0,
 		"fruta": "banana",
 		"precio": 150,
-		"stock": 100,
+		"stock": 10,
 		"imagen": "/imagenes/banana.jpg",
 		"descripcion": "La banana, ​ conocido también como banano, plátano, ​ guineo maduro, guineo, cambur o gualele, es un fruto comestible, de varios tipos de grandes plantas herbáceas del género Musa. A estas plantas de gran porte que tienen aspecto de arbolillo se las denomina plataneras, bananeros, bananeras, plátanos o bananos.",
 		"categoria": "acida"
@@ -12,7 +12,7 @@
 		"id": 1,
 		"fruta": "durazno",
 		"precio": 300,
-		"stock": 100,
+		"stock": 5,
 		"imagen": "/imagenes/durazno.jpg",
 		"descripcion": "Prunus persica, originalmente Amygdalus persica L. y comúnmente conocido como melocotonero​, es una especie de árbol del género Prunus de la familia Rosaceae. También se suele denominar duraznero en países hispanoamericanos y albérchigo en castellano antiguo.",
 		"categoria": "semiacida"
@@ -21,7 +21,7 @@
 		"id": 2,
 		"fruta": "frutilla",
 		"precio": 600,
-		"stock": 100,
+		"stock": 25,
 		"imagen": "/imagenes/frutilla.jpg",
 		"descripcion": "La fresa o frutilla es un género de plantas rastreras estoloníferas de la familia Rosaceae. Agrupa unos 400 taxones descritos, de los cuales solo unos 20 están aceptados.​ Son cultivadas por su fruto comestible llamado de la misma manera: fresa o, en algunos países hispanoamericanos, frutilla. ",
 		"categoria": "neutra"
@@ -30,7 +30,7 @@
 		"id": 3,
 		"fruta": "mandarina",
 		"precio": 280,
-		"stock": 100,
+		"stock": 5,
 		"imagen": "/imagenes/mandarina.jpg",
 		"descripcion": "La mandarina es el fruto de las diferentes especies de cítricos llamados comúnmente mandarino, entre ellas Citrus reticulata, Citrus unshiu, Citrus × reshni, así como sus híbridos, incluyendo Citrus × tangerina, cuya taxonomía está discutida.​ ",
 		"categoria": "neutra"
@@ -39,7 +39,7 @@
 		"id": 4,
 		"fruta": "manzana",
 		"precio": 320,
-		"stock": 100,
+		"stock": 10,
 		"imagen": "/imagenes/manzana.jpg",
 		"descripcion": "La manzana o poma​ es el fruto comestible de la especie Malus domestica, el manzano común. Es una fruta pomácea de forma redonda y sabor muy dulce, dependiendo de la variedad. Los manzanos se cultivan en todo el mundo y son las especies más utilizadas del género Malus.",
 		"categoria": "dulce"
