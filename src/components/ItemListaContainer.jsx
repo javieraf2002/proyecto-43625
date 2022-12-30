@@ -11,32 +11,7 @@ const ItemListaContainer = () => {
 
     const [items, setItems] = useState([]);
     const {categoria} = useParams();
-
-    // useEffect(() => {
-    //     const promesa = new Promise((resolve, reject) => {
-    //         setTimeout(() => {
-    //             resolve(categoria ? arrayInventario.filter(item => item.categoria === categoria) : arrayInventario);
-    //         }, 2000);
-    //     });
-    //     promesa.then((data) => {
-    //         setItems(data);
-    //     });    
-    // }, [categoria]);
-
-    //Agregar el array a la base de datos, solo se hace una sola ves
-    /*     
-    console.log(arrayInventario);
-    useEffect(()=>{
-
-        const db = getFirestore();
-        const coleccion = collection(db, "inventario");
-
-        arrayInventario.forEach((item)=>{
-            addDoc(coleccion, item);
-        })
-    }, []);
-    */
-    
+  
     //Consulta a nuestra coleccion de datos
 
     useEffect(()=>{
