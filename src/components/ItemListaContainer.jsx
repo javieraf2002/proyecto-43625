@@ -6,10 +6,12 @@ import { useParams } from "react-router-dom";
 import arrayInventario from "../db/inventario.json"
 import Item from "./Item";
 import ItemList from "./ItemList";
+import Loader from "./Loader";
 
 const ItemListaContainer = () => {
 
     const [items, setItems] = useState([]);
+    const [cargando, setCargando] = useState(true);
     const {categoria} = useParams();
   
     //Consulta a nuestra coleccion de datos
@@ -22,13 +24,17 @@ const ItemListaContainer = () => {
 
         getDocs(q).then((x) => {
             setItems(x.docs.map((doc) => ({id:doc.id, ...doc.data()})
-            ))
+            ));
+        setCargando(false);
         }); 
     }, [categoria]);
 
     return (
         <div className="container my-5">
-            <ItemList items={items} />
+            {
+            cargando    ? <Loader titulo={"Cargando Lista de Productos..."} />
+                        : <ItemList items={items} />
+            }
         </div>
     )
 }

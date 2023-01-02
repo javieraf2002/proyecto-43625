@@ -4,10 +4,12 @@ import { useParams } from "react-router-dom";
 //import Documento from "./Firebase/Documento";
 import ItemDetail from "./ItemDetail";
 import { getFirestore, doc, getDoc} from "firebase/firestore";
+import Loader from "./Loader";
 
 const ItemDetailContainer = () => {
     
     const [item, setItem] = useState([]);
+    const [cargando, setCargando] = useState(true);
     const {id} = useParams();
 
     // useEffect(() => {
@@ -29,6 +31,7 @@ const ItemDetailContainer = () => {
 
         //Obtener un producto
         getDoc(i).then((data)=>{
+            setCargando(false);
             if (data.exists()) {
                 setItem({id: data.id, ...data.data()});
                 console.log(item);
@@ -40,8 +43,10 @@ const ItemDetailContainer = () => {
 
     return (
         <div className="container my-5">
-            <ItemDetail item={item} />
-            {/* <Documento /> */}
+            {
+                cargando    ?   <Loader titulo={"Cargando Producto..."} />
+                            :   <ItemDetail item={item} />
+            }           
         </div>
     )
 }
