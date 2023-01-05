@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "./context/CartContext";
 import { useState } from "react";
@@ -13,8 +13,7 @@ const Checkout = () => {
     const [ email, setEmail ] = useState("");
     const [ ordenId, setOrdenId ] = useState("");
     const db = getFirestore();
-    const ordersCollection = collection(db, "orders"); 
-    
+    const ordersCollection = collection(db, "orders");    
     const generarOrden = () => {     
         const fecha = new Date();
         const orden = {
@@ -25,9 +24,9 @@ const Checkout = () => {
             total: sumaTotal(),
             order_date: `${fecha.getFullYear()}/${fecha.getMonth()}/${fecha.getDate()} ${fecha.getHours()}:${fecha.getMinutes()}`
         }
-   
-    addDoc(ordersCollection, orden).then((x) => {
-        setOrdenId(x.id);
+
+        addDoc(ordersCollection, orden).then((x) => {
+        setOrdenId(x.id);        
         clear();
     });
     }
@@ -40,17 +39,17 @@ const Checkout = () => {
 
                     <form>
                         <div className="mb-3">
-                            <label for="nombre" className="form-label">Ingrese su Nombre:</label>
+                            <label className="form-label">Ingrese su Nombre:</label>
                             <input type="text" className="form-control" placeholder="Nombre" onInput={(e)=>{setNombre(e.target.value)}} />
                         </div>
 
                         <div className="mb-3">
-                            <label for="telefono" className="form-label">Ingrese su Telefono:</label>
+                            <label className="form-label">Ingrese su Telefono:</label>
                             <input type="number" className="form-control" placeholder="Telefono" onInput={(e)=>{setTelefono(e.target.value)}}/>
                         </div>
 
                         <div className="mb-3">
-                            <label for="email" className="form-label">Ingrese su Email:</label>
+                            <label className="form-label">Ingrese su Email:</label>
                             <input type="text" className="form-control" placeholder="Email" onInput={(e)=>{setEmail(e.target.value)}}/>
                         </div>
 
@@ -84,7 +83,7 @@ const Checkout = () => {
             </div>
             <div className="row">
                 <div className="col-md-12 text-center">
-                {ordenId !== "" ? <div className="alert-success" role="alert">Se Generó el nº de Orden: <b>{ordenId}</b></div> 
+                {ordenId !== "" ? <Navigate to={"/ticket/" + ordenId}/> 
                                 : ""}
                 </div>
             </div>
