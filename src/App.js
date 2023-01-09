@@ -21,6 +21,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
+
           <Route path={"/"} element={<ItemListaContainer />} />
           <Route path="/category/:categoria" element={<ItemListaContainer />} />
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />
@@ -28,6 +29,7 @@ function App() {
           <Route path={"/checkout"} element={<Checkout />} />
           <Route path={"/ticket/:id"} element={<Ticket />} />
           <Route path={"*"} element={<Error404 />} />
+          
         </Routes>
         <Contacto />
         <Footer />
